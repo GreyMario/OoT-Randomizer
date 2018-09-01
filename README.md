@@ -21,7 +21,7 @@ The randomized output may also be injected into a Wii Virtual Console channel or
 
 ## Please Note: On Stability and Crashing (no, really, this is important.)
 
-This program offers the option to `Compress patched ROM` at seed generation. **Always use this option.** This eliminates major stability issues when using an emulator to play, the most notable of which is **crashing when pausing or dying.*
+This program offers the option to `Compress patched ROM` at seed generation. **Always use this option.** This eliminates major stability issues when using an emulator to play, the most notable of which is **crashing when pausing or dying.**
 
 This option was originally provided as a courtesy to Everdrive users, as the original Nintendo 64 hardware does not crash when using an uncompressed output. It has since been demonstrated that the compressed output works just as well, if not better. Included with the program is a compression utility tailor-made for _Ocarina of Time_.
 
