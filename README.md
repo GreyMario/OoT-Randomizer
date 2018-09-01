@@ -1,74 +1,88 @@
-# OoTRandomizer
+# OoT-Randomizer
 
-This is a randomizer for _The Legend of Zelda: Ocarina of Time_ for the Nintendo 64.
+This program is a randomizer for the Nintendo 64 version of _The Legend of Zelda: Ocarina of Time_.
 
 # Installation
 
-It is strongly suggested users get the latest release from here: https://github.com/AmazingAmpharos/OoT-Randomizer/releases .
-Simply download the .msi installer and run it if you have a Windows machine.
+The current Windows release build is version 2.0, [available here](https://github.com/AmazingAmpharos/OoT-Randomizer/releases/tag/v2.0). Simply download and run the linked installer.
 
-If you do not have Windows or you simply wish to run the script raw, clone this repository and either run '''Gui.py''' for a
-graphical interface or '''OoTRandomizer.py''' for the command line version. Both require Python 3.5+.
+If you do not have Windows or you want to run from the Python source, [clone or download the repository (or one of its forks)](https://github.com/AmazingAmpharos/OoT-Randomizer) or [download the source code for the release](https://github.com/AmazingAmpharos/OoT-Randomizer/releases/tag/v2.0). Install **Python 3.5** or better, then run `Gui.py` for a user interface or `OoTRandomizer.py` for a command-line interface.
 
-This randomizer requires The Legend of Zelda: Ocarina of Time version 1.0 NTSC-US version. Upon first being run, the randomizer will automatically
-create a decompressed version of this ROM that can be used for input for slightly faster seed generation times. Please be sure your input ROM filename
-is either a .n64 or .z64 file. For users playing via any means other than on real N64 hardware, the use of the "Compress patched ROM" flag is strongly
-encouraged as uncompressed ROMs are impossible to inject for the Virtual Console and have random crashing problems on all emulators.
+You will need to acquire a copy of the _United States 1.0_ version of _The Legend of Zelda: Ocarina of Time_ to use with this program. It must be the United States v1.0 release; no other release is compatible with this program.
 
-For general use, the recommended emulator is RetroArch; it has been shown to work with minimal issues. Bizhawk and Mupen64plus are generally good choices
-too. If you want to play on Project 64 for whatever reason, you can but you will need to set the rando to use 8 MB of RAM and will want to play with the
-cheat code 8109C58A 0000 to partially fix Project 64's tragically poor handling of OoT's pause menu. Project 64 also has one particular crash that only
-happens for some unknown settings configurations; we cannot support this. I cannot emphasize enough that it is a discouraged emulator to use.
+You will also likely need an _emulator_ in order to run the randomized output.
+- RetroArch is our top recommendation for stability and accuracy.
+- BizHawk is acceptable, but there is a known issue with the fishing minigame.  
+  If you find yourself unable to hook and reel in a fish, save your game and perform a hard reset to fix the issue.
+- Please do not use Project64 to run the randomized ROM.  
+  Project64 has been demonstrated to be an inaccurate and unstable emulator. No technical support will be provided for an issue that occurs while using Project64, unless it can be proven to occur in an accurate emulator or on real N64 hardware.
+
+The randomized output may also be injected into a Wii Virtual Console channel or used on an Everdrive to play on the real Nintendo 64 hardware. Both are beyond the scope of this readme.
+
+## Please Note: On Stability and Crashing (no, really, this is important.)
+
+This program offers the option to `Compress patched ROM` at seed generation. **Always use this option.** This eliminates major stability issues when using an emulator to play, the most notable of which is **crashing when pausing or dying.*
+
+This option was originally provided as a courtesy to Everdrive users, as the original Nintendo 64 hardware does not crash when using an uncompressed output. It has since been demonstrated that the compressed output works just as well, if not better. Included with the program is a compression utility tailor-made for _Ocarina of Time_.
 
 # General Description
 
-This program takes _The Legend of Zelda: Ocarina of Time_ and randomizes the locations of the items for a more dynamic play experience.
-Proper logic is used to ensure every seed is possible to complete without the use of glitches and will be safe from the possibility of softlocks
-with any possible usage of keys in dungeons.
+This program is a tool which takes _The Legend of Zelda: Ocarina of Time_ as an input and outputs a modified, "randomized" version for a more dynamic play experience which tests your knowledge of the game's mechanics. The randomization process uses proper "logic" to ensure that every generated seed will always be completable without the use of glitches, and the logic accounts for the worst order a player can possibly use keys in to prevent softlocks.
 
-The items that randomize currently are all items within chests including those in grottos, items given as rewards by NPCs including from minigames and
-Deku Scrub salesmen, the items given by freestanding Pieces of Heart, Heart Containers, and Keys, and the items obtained when getting the Bottle and the
-Fire Arrows at Lake Hylia. All dungeons will always have the same number of Maps, Compasses, Small Keys, and Boss Keys they had in the original game, but
-which chests within those dungeons have those things is random. The item pool will contain a Biggoron Sword that will not interfere with Medigoron's sale
-of the Giant's Knife (which is always vanilla), and a randomly selected adult trading quest item other than the Odd Potion will be somewhere in the item pool.
+As of the 2.0 release, the following types of item locations are shuffled in the "global item pool", a list of valid locations and the items which are allowed to be placed in those locations:
+- All items found within chests, _including_ all chests found within grottos across Hyrule.
+  - The exception is the chests within the Treasure Minigame in Castle Town _leading up to_ the grand prize chest.  
+   The grand prize itself (a Piece of Heart in the original game) is shuffled.
+  - Dungeon items (Maps, Compasses, Small Keys, and Boss Keys) will only appear in the dungeon they belong to.  
+   They may still be shuffled among the chests within their parent dungeon and may even appear on the boss.
+- All Heart Containers
+- The unique prizes from all minigames (the prizes you may only win once)
+- The two Business Scrubs that sell one-time upgrades and the one Business Scrub that sells a Piece of Heart
+- All freestanding Pieces of Heart, including those created by minigames (Dampe's Gravedigging, Goron City Spinning Pot)
+- All gifts from Great Fairy Fountains
+- Fire Arrows
+- Ruto's Letter
+- All other sidequests, most notably:
+  - The prizes for turning in 10, 20, 30, 40, and 50 Gold Skulltula Tokens
+  - The prizes for Skull Mask and Mask of Truth in the Theater grotto in Lost Woods
+  - Anju's Pocket Egg
+    - Anju will give you a random item as an adult.
+    - You will find _one_ randomly selected Adult Trading Quest item (never the Odd Potion) in the global item pool.  
+      Complete the Adult Trading Quest as normal starting from the randomly selected item once you find it.
+ - The reward Biggoron gives you for turning in the Claim Check
+   - The real Biggoron Sword may appear anywhere in the global item pool.
+ - Turning in 10 Big Poes
+ 
+Songs are randomized _among themselves_. This means, for example, that you may receive the Minuet of Forest from Malon at Lon Lon Ranch. You will not receive an item from a song location and you will not receive a song from an item location.
 
-Certain types of items are now "progressive", meaning that no matter what order the player encounters these items they will function as a series of upgrades.
-The following item types will be progressive chains:
+The following are _not_ shuffled:
+- The Fairy Ocarina and Ocarina of Time
+- Malon's Weird Egg
+- Intermediate steps in the Child and Adult Trading Quest
+- All shops
+  - Medigoron will always sell the Giant's Knife
+  - Business Scrubs, excluding the three which sell _unique upgrades_, will always sell what they advertise
+  - The Happy Mask Shop, an integral part of the Child Trading Quest
+- Gold Skulltulas
+- Rewards you may obtain repeatedly (the replacement prizes when you win a minigame prize for the second time)
+- Freestanding Rupees or Recovery Hearts
 
--Hookshot to Longshot
--Bomb Bag to Big Bomb Bag to Biggest Bomb Bag
--Goron Bracelet to Silver Gauntlets to Gold Gauntlets
--Slingshot to Big Bullet Bag to Biggest Bullet Bag
--Bow to Big Quiver to Biggest Quiver
--Silver Scale to Gold Scale
--Adult Wallet to Giant's Wallet
--Deku Stick Capacity Upgrades
--Deku Nut Capacity Upgrades
--Magic Meter to Double Magic
+Certain types of items are modified to be _progressive_, meaning finding multiple instances will upgrade the item.
 
-To be more clear about which NPC items are shuffled, it's only the one time permanent item rewards for the most part like NPCs who originally gave Pieces of Heart
-or inventory items. The only exception is that even though in vanilla the reward for 40 Gold Skulltulla Tokens was just 10 Bombchus that is still a randomized reward
-in randomizer (but the 200 rupees for all 100 Gold Skulltulla Tokens is not randomized so the most tokens that could be required to complete a seed is 50). As a mercy
-to the player, the Ocarina Memory Game in the Lost Woods will start on the final round as that minigame was very long originally, the three day wait on the Claim Check
-is removed, Bombchu Bowling will have a fixed sequence of prizes that is of maximum convenience to the player, Dampe's Gravedigging Tour will always be won on the first
-dig, and the fishing minigame is made much simpler (8 lb fish for child now, 10 lb for adult). Additionally, any NPC who gives a trading quest item either for the child
-or for the adult other than Anju's initial gift as an adult does not have a randomized reward, and as a design decision, the Fairy Ocarina and Ocarina of Time are not
-randomized.
+| Name in Spoiler | Collect One | Collect Two | Collect Three |
+| ---:| --- | --- | --- |
+| Slingshot | Slingshot + Bullet Bag | Big Bullet Bag | Biggest Bullet Bag |
+| Bow | Bow + Quiver | Big Quiver | Biggest Quiver |
+| Bomb Bag | Bomb Bag | Big Bomb Bag | Biggest Bomb Bag |
+| Progressive Strength Upgrade | Goron Bracelet | Silver Gauntlets | Golden Gauntlets |
+| Progressive Hookshot | Hookshot | Longshot | |
+| Progressive Scale | Silver Scale | Golden Scale | |
+| Progressive Wallet | Adult's Wallet | Giant's Wallet | |
+| Magic Meter | Magic Meter | Double Magic | |
+| Deku Stick Capacity | Hold 20 Sticks | Hold 30 Sticks | |
+| Deku Nut Capacity | Hold 30 Nuts | Hold 40 Nuts | |
 
-A special note is needed for the six Great Fairy Fountains scattered across Hyrule. All six of these fountains now give random item rewards, and the magic and life
-upgrades can now be found as normal items scattered around the world. Happy hunting!
-
-The Ocarina songs are shuffled in a pool amongst themselves, and each learn spot will still have the original conditions it has always had. These conditions may not
-have all been obvious, but here are some high points. Saria will teach her song after completing the events in the Castle Courtyard. The warp songs can mostly only
-be learned by an adult, but the location for Requiem of Spirit is available for even a child if the Desert Colossus can be reached. The location for the Prelude of
-Light requires the Forest Medallion, and the location for the Nocturne of Shadow requires the Forest Medallion, Fire Medallion, and Water Medallions.
-
-Speaking of Medallions, each boss in the eight main dungeons will drop a random Spiritual Stone or Medallion, and instead of the Light Medallion being granted by the
-now removed "becoming an adult" cutscene, the player will start every seed with a random Spiritual Stone or Medallion. The pedestal in which the Spiritual Stones
-rest in the Temple of Time has hint text pointing to the locations of the Spiritual Stones and Medallions. A child will be able to read hints for the Spiritual
-Stones while an adult will be able to read hints for the Medallions.
-
-To be very clear on this point, while the rewards for up to 50 Gold Skulltulla Tokens are randomized, the tokens themselves are not.
+# Further Notes
 
 As a service to the player in this very long game, many cutscenes have been greatly shortened or removed and text is as often as possible either omitted or sped up.
 We have been as thorough as our exploration of the game and various technical limitations will allow to make the parts of the game where you're watching and reading
