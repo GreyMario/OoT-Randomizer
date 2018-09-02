@@ -126,6 +126,7 @@ The randomized item layout will test your knowledge of the game's intended mecha
 - Spawning the Ocarina of Time (and learning the song from it) requires all three Spiritual Stones in your possession. Stand in front of the closed drawbridge leading to Castle Town. (Entering Hyrule Field from Castle Town with all three Spiritual Stones will dump Link into the moat. You will need to climb out and stand on dry ground.)
 
 ### Adult Notes
+- You may play the Adult Shooting Gallery in Kakariko Village without a Bow. However, you cannot receive the randomized prize without a Bow and will instead be rewarded with 50 Rupees.
 - Learning a song from Sheik at the Temple of Time requires that you own the Forest Medallion and visit as an adult.
 - Learning a song from Sheik at Kakariko Village requires that you own the Forest, Fire, and Water Medallions, visit as an adult, and enter from Hyrule Field (not Graveyard or Death Mountain Trail).
 - The Boulder Maze in Goron City requires Bombs to access the right side items, the Megaton Hammer to access either side, or the Silver Gauntlets to literally rip the maze apart. The Skulltula in the crate only exists as a child, so you will still need Bombs to access and kill it.
