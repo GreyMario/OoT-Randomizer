@@ -51,12 +51,17 @@ The items and locations in the **Global Item Pool** include the following locati
     - Anju will give you a random item as an adult instead of the Pocket Egg.
     - You will find _one_ randomly selected Adult Trading Quest item (never the Odd Potion) in the global item pool.  
       Complete the Adult Trading Quest as normal starting from the randomly selected item once you find it.
- - The reward Biggoron gives you for turning in the Claim Check
-   - The real Biggoron Sword may appear anywhere in the global item pool.
- - Turning in 10 Big Poes
+  - The reward Biggoron gives you for turning in the Claim Check
+    - The real Biggoron Sword may appear anywhere in the global item pool.
+  - Turning in 10 Big Poes
  
 ### Song Pool
-In version 2.0, songs are shuffled among their own locations. For example, Malon may teach you the Minuet of Forest and Guru-Guru may tell you the song that drove him mad was the Song of Time. Songs will only ever appear at song locations. You will never receive an item at a song location, or a song from the global item pool.
+Songs are shuffled among their own locations. For example, Malon may teach you the Minuet of Forest and Guru-Guru may tell you the song that drove him mad was the Song of Time. Songs will only ever appear at song locations. You will never receive an item at a song location, or a song from the global item pool.
+
+### Medallions, Spiritual Stones, and Link's Pocket
+The eight dungeon bosses are assigned random Medallions or Spiritual Stones. However, there are _nine_ such items to distribute among only eight bosses. Because Link receives the Light Medallion for free upon becoming an adult in the original game, and because the cutscene where this event occurs has been removed, Link will start the game with a random Spiritual Stone or Medallion to compensate and add to the randomized experience. This item location is referred to as **Link's Pocket**.
+
+Note that the Light Medallion, for all intents and purposes, is still just a worthless trinket.
 
 ### Items Not Shuffled
 The following items are not shuffled and their locations are not part of any item pool:
@@ -89,53 +94,64 @@ Certain types of items are modified to be _progressive_, meaning finding multipl
 
 # Changes to Gameplay
 
-As a service to the player in this very long game, many cutscenes have been greatly shortened or removed and text is as often as possible either omitted or sped up.
-We have been as thorough as our exploration of the game and various technical limitations will allow to make the parts of the game where you're watching and reading
-as short as possible to make as much of your time with this randomizer as possible actual gameplay. I'm sure someone somewhere will miss the owl's interjections; to
-that person, I'm sorry I guess?
+### Shortened/Removed Cutscenes and Instant Text
+A great effort has been made to cut out as much idle time as possible from the original game. Cutscenes are drastically shortened and where possible are removed entirely. Kaepora Gaebora will never interrupt you for an annoyingly long monologue that can be accidentally restarted. Text is written much faster. These changes are cosmetic in nature but speed up gameplay immensely.
 
-A few bugs or other undesirable behaviors in the original game have been fixed. Of note, obtaining the Poacher's Saw will no longer prevent the player from obtaining
-the reward in the Deku Theater for showing the Mask of Truth, and becoming an adult will not automatically equip the child with the Kokiri Sword. Sheik will no longer
-prevent the player from returning to childhood before obtaining the Forest Medallion. Princess Ruto will never disappear from Jabu Jabu's Belly, and the condition for
-the Castle Courtyard being sealed off is now completing the events within as opposed to seeing the Ocarina of Time be thrown into the moat.
+Kaepora Gaebora will still fly you back to Castle Town from Lake Hylia or to Kakariko Village from Death Mountain Trail should you choose to talk to him.
 
-One small detail that is important to know is that the locked door in the Fire Temple leading to the section with the Boss Key Chest is removed. This was necessary
-due to the original design of the Fire Temple assuming that the player could not possibly have the Hammer before unlocking the doors leading into the depths of the
-dungeon. This is obviously not true in randomizer, and of all possible solutions to this problem, this seemed the least disruptive. A full clear of the Fire Temple will
-simply result in the player having one extra Small Key.
+### Bug Fixes and Quality of Life Changes
+Some things have been changed and some bugs have been fixed entirely in order to better facilitate gameplay and allow a more thorough randomization. Of note:
+- Bugfix: Obtaining the Poacher's Saw will no longer lock the player out of the Deku Theater Mask of Truth reward
+- Becoming Adult Link will not automatically equip Child Link with the Kokiri Sword.
+- Sheik will no longer prevent Link from returning to childhood before obtaining the Forest Medallion.
+- Princess Ruto will now never disappear from Jabu Jabu's Belly, as she is vital to some puzzles.
+- The Castle Courtyard becomes sealed off after completing the events within, instead of seeing the Ocarina of Time be thrown into the moat.
+- In the Fire Temple, one door lock was removed. This is necessary to allow more variety in the placement of items within the dungeon. The door in question is behind the hammer totem in the lobby. As a consequence, fully clearing the Fire Temple leaves the player with one Small Key.
+- To make menu navigation in the inventory easier, empty inventory slots may now be highlighted with the cursor. This also fixes an issue where certain item combinations would result in unselectable items.
 
-To be clear about the logic rules of what can be where, the randomizer will ensure a glitchless path through the seed will exist, but the randomizer will not prevent
-the use of glitches for those players who enjoy that sort of thing though we offer no guarantees that all glitches will have identical behavior to the original game.
-Glitchless can still mean that clever or unintuitive strategies may be required involving the use of things like Hover Boots, the Hookshot, or Scarecrow's Song that
-may not have been important options in the original game. The Lens of Truth is guaranteed available and useable before completion of the Treasure Chest Game is required
-or before walking through any invisible objects or opening any invisible chests is required with the exception of the one invisible wall that is required to enter
-the Bottom of the Well as the original game required passing that invisible wall to reach the Lens of Truth.
+# Logic Notes
+The randomized item layout will test your knowledge of the game's intended mechanics and items. Items may even be used in new ways to perform actions which would never appear in a casual run. Keep these in mind:
 
-One last detail is that the menu is now more like the Majora's Mask menu in that the player can move the cursor through empty spaces. This fixes a major problem from
-the original game in that certain combinations of items would create menu shapes that would be impossible to fully menu through.
+### Child Notes
+- Child Link can perform nearly every action with a Deku Stick that he can with the Kokiri Sword. However:
+  - You must have a sword equipped in order to play the Fishing minigame.
+  - Logic will not expect you to defeat Dead Hand in the Bottom of the Well until you own the Kokiri Sword. You may still defeat Dead Hand with careful use of Deku Sticks.
+- You do not need a Slingshot to play the Child Shooting Gallery minigame.
+- You DO need a Bomb Bag to play Bombchu Bowling or purchase Bombchus.
+- Stopping the Rolling Goron in Goron City does nothing unless Link owns a Bomb Bag and stops him within the tunnel that the Rolling Goron's sign is placed in.
+- Skull Kid will not purchase the Skull Mask from Link unless Link plays _Saria's Song_ for him first.
+- The Running Man, who purchases the Bunny Hood from Link and thereby completes the Child Trading Quest, requires all three Spiritial Stones.
+- Open the Door of Time simply by playing the Song of Time for it. You do not need to collect the Spiritual Stones. The Ocarina of Time itself is merely a cosmetic upgrade to the Fairy Ocarina and does not grant any special ability.
+  - If you arrive at the Temple of Time via _Prelude of Light_, playing the Song of Time for the Door will not work. Walk out and back in to load the scene correctly and resolve the issue.
+- Spawning the Ocarina of Time (and learning the song from it) requires all three Spiritual Stones in your possession. Stand in front of the closed drawbridge leading to Castle Town. (Entering Hyrule Field from Castle Town with all three Spiritual Stones will dump Link into the moat. You will need to climb out and stand on dry ground.)
 
-# Quirks to Know
+### Adult Notes
+- Learning a song from Sheik at the Temple of Time requires that you own the Forest Medallion and visit as an adult.
+- Learning a song from Sheik at Kakariko Village requires that you own the Forest, Fire, and Water Medallions, visit as an adult, and enter from Hyrule Field (not Graveyard or Death Mountain Trail).
+- The Boulder Maze in Goron City requires Bombs to access the right side items, the Megaton Hammer to access either side, or the Silver Gauntlets to literally rip the maze apart. The Skulltula in the crate only exists as a child, so you will still need Bombs to access and kill it.
+- If you have neither a Bomb Bag nor the Goron Bracelet, access to the lower sections of Death Mountain Crater (and therefore Sheik at the broken bridge and the Fire Temple) may be performed in the following alternative ways:
+  - Detonate the Bomb Flower using a Bow to stop Link the Goron. This opens Darunia's chamber and lets you use his secret exit.
+  - Enter Death Mountain Crater from the top and use the Hover Boots to cross the gap to the left.
+  - Enter Death Mountain Crater from the top and use the Longshot and Scarecrow's Song to navigate the route to the right.
+- The Longshot is not necessary to perform any of the rooftop actions in Kakariko Village. The Hookshot is sufficient.
+- Surprisingly, the game checks for the Goron Bracelet in the following places as an adult:
+  - Bomb Flowers require the Goron Bracelet to be lifted.
+  - The large colored blocks with the crescent moon and star symbol (for example, those in Forest Temple's Block Room) require the Goron Bracelet to be pushed.
 
-While all the details of gameplay can't be detailed here, I want to inform you of a few non-obvious game sequences that are likely to get you stuck and one little
-glitch we can do nothing about.
+### Other Notes
+- Bombable Grottos may be opened with either Bombs, Bombchus, or the Megaton Hammer.
+- While you can bypass the waterfall entry to Zora's Domain using a Cucco as a child or the Hover Boots as an adult, these are never considered in logic.
+- The Lens of Truth is always considered for every fake wall and invisible object, including Bongo Bongo. It is also considered for the Treasure Minigame, as the Lens of Truth can reveal the winning choices to make. You will never be expected to pass through a fake wall, open an invisible chest, or play the Treasure Minigame until you own the Lens of Truth.
+  - The exception to the rule is the Bottom of the Well, where the player is expected to walk through the initial fake wall to enter the dungeon, which is where the Lens of Truth is located in the original game.
 
--The condition to open the Door of Time is merely playing the Song of Time; the Spiritual Stones are not required. If you enter the Temple of Time via the Prelude
-of Light, playing the Song of Time will create a glitchy cutscene and will not open the door (but you're safe to exit and re-enter and open it properly).  
--The condition to spawn the Ocarina of Time and learn that song is the three Spiritual Stones. The condition to learn a song from Sheik in the Temple of Time is
-possessing the Forest Medallion. The condition to learn a song from Sheik in Kakariko is possessing Forest, Fire, and Water Medallions.  
--The running man in Hyrule Field only spawns if you have all three Spiritual Stones.  
--Skull Kid will only buy the Skull Mask if you have played Saria's Song for him.  
--The center of Death Mountain Crater as an adult can be reached from the summit as an adult by going around to the left with Hover Boots or by jumping down to the right
-and using a combination of the Longshot and Scarecrow's Song. This allows access to Sheik and the Fire Temple without a Bomb Bag.  
--A sword must be equipped to play the fishing minigame. A Slingshot is not required for child target shooting, but the adult does need the Bow.  
--Other than those minigames, the child can do anything that would seem to require the sword with Deku Sticks. You can buy as many as you want in the Kokiri Forest shop.  
--In the randomizer, possessing the Bomb Bag is the requirement to get bomb drops, buy bombs or Bombchus, or play Bombchu Bowling.  
--Only the Hookshot, not the Longshot, is needed to do everything on the rooftops of Kakariko.  
--Grottos can be opened with either Bombs or the Hammer.  
--The boulder maze in Goron City can be solved with the Hammer or partially with Bombs as is obvious, but less obvious is that it can be fully solved with Silver Gauntlets.  
--The large colored blocks only encountered by the adult require Goron Bracelet to push.  
--In a few places, out of sight Song of Time blocks can be summoned. The lava room in Gerudo Training Grounds, the beginning of Ganon's Castle Shadow Trial, and the last
-hallway with a caged Goron in Fire Temple are the main cases.
+### Dungeon-Specific
+- The Song of Time can summon and dispel the blue blocks featuring the Door of Time symbol. Remember that these blocks can be summoned to climb to new areas in the Fire Temple's final Goron jail, Gerudo Training Grounds Lava Rupees room, and Ganon's Castle Shadow Trial.
+- The Fire Temple and Water Temple expect that Link owns the Goron Tunic and Zora Tunic, respectively. You may be expected to find one in the item pool before entering, or you may be expected to purchase one.
+  - Purchasing the Goron Tunic (200 Rupees) requires an Adult Wallet (200 Rupees) and a way to stop Link the Goron (Bombs, Goron Bracelet, or the Bow).
+  - Purchasing the Zora Tunic (300 Rupees) requires a Giant's Wallet (500 Rupees), a source of Blue Fire (300 Rupees, if purchased in the Potion Shop), a Bottle to hold the Blue Fire in, and Zelda's Lullaby in order to access Zora's Domain as an adult.
+  - It is possible to _lose_ your Tunic to a Like-Like and not be able to purchase a new one. In the case of the Zora Tunic, this may not be detrimental. In the case of the Goron Tunic, this may make life incredibly difficult. Please be careful.
+
+
 -Adult Link can fully clear Dodongo's Cavern. He can even skip the first section by virtue of being tall.  
 -In the Forest Temple, you can reach the room with the Floormaster early by using Hover Boots in the block push room.  
 -In the Fire Temple, you can reach the Boss Key door from the beginning with Hover Boots.  
@@ -150,9 +166,7 @@ also be used in this temple to avoid the Longshot requirement for the middle lev
 -In the Spirit Temple, the child can obtain the vanilla Map chest with Deku Sticks. No fire magic is needed.  
 -In the Spirit Temple, you can collect the silver rupees without Hover Boots by jumping directly onto the rolling boulder or with a jump slash.  
 -In the Spirit Temple, you can use the Longshot to cross from the hand with the Mirror Shield in vanilla to the other hand.  
--In Ganon's Castle Spirit Trial, the web can be burned with a precise shot through the torch by a normal arrow. Fire Arrows are not required.  
--While we guarantee tunics for Fire Temple and Water Temple, you can possibly force yourself to do without if you seriously let a Like Like eat the tunic and
-then do not recover the tunic. It is almost always possible to do without, but it can make things really difficult on you.  
+-In Ganon's Castle Spirit Trial, the web can be burned with a precise shot through the torch by a normal arrow. Fire Arrows are not required.
 -Several Gold Skulltulla Tokens can be reached by clever/precise uses of jump slashes and spin attacks (possibly magic spin attacks).  
 
 # Known issues
