@@ -6,7 +6,7 @@ This program is a randomizer for the Nintendo 64 version of _The Legend of Zelda
 
 The current Windows release build is version 2.0, [available here](https://github.com/AmazingAmpharos/OoT-Randomizer/releases/tag/v2.0). Simply download and run the linked installer.
 
-If you do not have Windows or you want to run from the Python source, [clone or download the repository (or one of its forks)](https://github.com/AmazingAmpharos/OoT-Randomizer) or [download the source code for the release](https://github.com/AmazingAmpharos/OoT-Randomizer/releases/tag/v2.0). Install **Python 3.5** or better, then run `Gui.py` for a user interface or `OoTRandomizer.py` for a command-line interface.
+If you do not have Windows or you want to run from the Python source, [clone or download the repository (or one of its forks)](https://github.com/AmazingAmpharos/OoT-Randomizer) or [download the source code for the release](https://github.com/AmazingAmpharos/OoT-Randomizer/releases/tag/v2.0). Install [Python 3.6](https://www.python.org/) or better, then run `Gui.py` for a user interface or `OoTRandomizer.py` for a command-line interface.
 
 You will need to acquire a copy of the _United States 1.0_ version of _The Legend of Zelda: Ocarina of Time_ to use with this program. It must be the United States v1.0 release; no other release is compatible with this program.
 
@@ -29,7 +29,10 @@ This option was originally provided as a courtesy to Everdrive users, as the ori
 
 This program is a tool which takes _The Legend of Zelda: Ocarina of Time_ as an input and outputs a modified, "randomized" version for a more dynamic play experience which tests your knowledge of the game's mechanics. The randomization process uses proper "logic" to ensure that every generated seed will always be completable without the use of glitches, and the logic accounts for the worst order a player can possibly use keys in to prevent softlocks.
 
-As of the 2.0 release, the following types of item locations are shuffled in the "global item pool", a list of valid locations and the items which are allowed to be placed in those locations:
+As of the 2.0 release, the following rules apply to the randomization:
+
+### Global Item Pool
+The items and locations in the **Global Item Pool** include the following locations and their vanilla contents:
 - All items found within chests, _including_ all chests found within grottos across Hyrule.
   - The exception is the chests within the Treasure Minigame in Castle Town _leading up to_ the grand prize chest.  
    The grand prize itself (a Piece of Heart in the original game) is shuffled.
@@ -37,36 +40,38 @@ As of the 2.0 release, the following types of item locations are shuffled in the
    They may still be shuffled among the chests within their parent dungeon and may even appear on the boss.
 - All Heart Containers
 - The unique prizes from all minigames (the prizes you may only win once)
-- The two Business Scrubs that sell one-time upgrades and the one Business Scrub that sells a Piece of Heart
+- The three Business Scrubs that sell unique one-time upgrades
 - All freestanding Pieces of Heart, including those created by minigames (Dampe's Gravedigging, Goron City Spinning Pot)
 - All gifts from Great Fairy Fountains
-- Fire Arrows
-- Ruto's Letter
+- Fire Arrows and Ruto's Letter
 - All other sidequests, most notably:
   - The prizes for turning in 10, 20, 30, 40, and 50 Gold Skulltula Tokens
   - The prizes for Skull Mask and Mask of Truth in the Theater grotto in Lost Woods
   - Anju's Pocket Egg
-    - Anju will give you a random item as an adult.
+    - Anju will give you a random item as an adult instead of the Pocket Egg.
     - You will find _one_ randomly selected Adult Trading Quest item (never the Odd Potion) in the global item pool.  
       Complete the Adult Trading Quest as normal starting from the randomly selected item once you find it.
  - The reward Biggoron gives you for turning in the Claim Check
    - The real Biggoron Sword may appear anywhere in the global item pool.
  - Turning in 10 Big Poes
  
-Songs are randomized _among themselves_. This means, for example, that you may receive the Minuet of Forest from Malon at Lon Lon Ranch. You will not receive an item from a song location and you will not receive a song from an item location.
+### Song Pool
+In version 2.0, songs are shuffled among their own locations. For example, Malon may teach you the Minuet of Forest and Guru-Guru may tell you the song that drove him mad was the Song of Time. Songs will only ever appear at song locations. You will never receive an item at a song location, or a song from the global item pool.
 
-The following are _not_ shuffled:
+### Items Not Shuffled
+The following items are not shuffled and their locations are not part of any item pool:
 - The Fairy Ocarina and Ocarina of Time
 - Malon's Weird Egg
 - Intermediate steps in the Child and Adult Trading Quest
 - All shops
   - Medigoron will always sell the Giant's Knife
   - Business Scrubs, excluding the three which sell _unique upgrades_, will always sell what they advertise
-  - The Happy Mask Shop, an integral part of the Child Trading Quest
-- Gold Skulltulas
+  - The Happy Mask Shop is an integral part of the Child Trading Quest
+- Gold Skulltulas themselves, including the tokens they hold
 - Rewards you may obtain repeatedly (the replacement prizes when you win a minigame prize for the second time)
 - Freestanding Rupees or Recovery Hearts
 
+### Progressive Items
 Certain types of items are modified to be _progressive_, meaning finding multiple instances will upgrade the item.
 
 | Name in Spoiler | Collect One | Collect Two | Collect Three |
@@ -82,7 +87,7 @@ Certain types of items are modified to be _progressive_, meaning finding multipl
 | Deku Stick Capacity | Hold 20 Sticks | Hold 30 Sticks | |
 | Deku Nut Capacity | Hold 30 Nuts | Hold 40 Nuts | |
 
-# Further Notes
+# Changes to Gameplay
 
 As a service to the player in this very long game, many cutscenes have been greatly shortened or removed and text is as often as possible either omitted or sped up.
 We have been as thorough as our exploration of the game and various technical limitations will allow to make the parts of the game where you're watching and reading
