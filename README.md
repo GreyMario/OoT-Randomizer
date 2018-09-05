@@ -152,23 +152,104 @@ The randomized item layout will test your knowledge of the game's intended mecha
   - Purchasing the Zora Tunic (300 Rupees) requires a Giant's Wallet (500 Rupees), a source of Blue Fire (300 Rupees, if purchased in the Potion Shop), a Bottle to hold the Blue Fire in, and Zelda's Lullaby in order to access Zora's Domain as an adult.
   - It is possible to _lose_ your Tunic to a Like-Like and not be able to purchase a new one. In the case of the Zora Tunic, this may not be detrimental. In the case of the Goron Tunic, this may make life incredibly difficult. Please be careful.
 
+#### Dodongo's Cavern
+- Adult Link can fully clear Dodongo's Cavern. Some things to note:
+  - Dodongo's Cavern is open automatically as an adult. No need to bomb the entrance!
+  - Link still needs the Goron Bracelet to lift Bomb Flowers, even as an adult.
+  - The Megaton Hammer will break all bombable walls in Dodongo's Cavern.
+  - Adult Link can skip the first floor loop path by jumping directly to the floor switch from the lobby.
+    - Child Link can perform the same skip by using a Ground Jump, though this is not in logic.
+  - The Bow or Din's Fire are acceptable substitutes for blasting the stone staircase to reach the second floor.
+    - Hilariously, Blue Fire also works, though you will need two bottles of it and this method is not in logic.
+  - The second floor loop through the upper miniboss fight and fire pillars may be skipped entirely as an adult.
+    - The in-logic method is to use the Hover Boots upon first entering the Bomb Bag Room.  
+      Hover to the left instead of dropping down and you will grab on to a pillar.
+    - This pillar may be jumped to without the use of Hover Boots, though this is not in logic.
+  - Bombchus may be used to light up the skull's eyes. However, Bombchus are not in logic here.
+  - Bombchus may be used to defeat King Dodongo as an adult using a [particular Ground Jump setup](https://youtu.be/scZnFD1hB7E?t=650).  
+    However, this is not in logic and not recommended for inexperienced players.
 
--Adult Link can fully clear Dodongo's Cavern. He can even skip the first section by virtue of being tall.  
--In the Forest Temple, you can reach the room with the Floormaster early by using Hover Boots in the block push room.  
--In the Fire Temple, you can reach the Boss Key door from the beginning with Hover Boots.  
--In the Water Temple, you can from the start with the water down jump to the middle platform level, very carefully aim the Hookshot to the target above, and pull yourself
-to the highest level of the central platform. Then a very well spaced rolling jump can reach the water changing station to raise the water to the highest level. If you
-make poor key choices in Water Temple, this may be what you need to do to untangle the situation.  
--In the Water Temple, Hover Boots can be used to reach the vanilla Boss Key chest without going through the room that requires Bombs and block pushing. Hover Boots can
-also be used in this temple to avoid the Longshot requirement for the middle level chest that requires the Bow.  
--In the Shadow Temple, you can avoid the need for the Longshot in the room with the invisible spikes by backflipping onto the chest for extra height.  
--In the Shadow Temple, you can Hookshot the ladder to avoid pushing the block to get on the boat.  
--In the Shadow Temple, a combination of the scarecrow and the Longshot can be used to reach Bongo Bongo without needing the Bow.  
--In the Spirit Temple, the child can obtain the vanilla Map chest with Deku Sticks. No fire magic is needed.  
--In the Spirit Temple, you can collect the silver rupees without Hover Boots by jumping directly onto the rolling boulder or with a jump slash.  
--In the Spirit Temple, you can use the Longshot to cross from the hand with the Mirror Shield in vanilla to the other hand.  
--In Ganon's Castle Spirit Trial, the web can be burned with a precise shot through the torch by a normal arrow. Fire Arrows are not required.
--Several Gold Skulltulla Tokens can be reached by clever/precise uses of jump slashes and spin attacks (possibly magic spin attacks).  
+#### Forest Temple
+- Remember that you will need _Saria's Song_ or _Minuet of Forest_ to reach the Sacred Forest Meadow, then Hookshot to enter.
+- You will need the Bow or the Song of Time in order to enter the courtyards from the lobby.
+- You will also need the Goron Bracelet in order to complete the dungeon, as Link cannot push large blocks without it.
+- From the large block pushing room, you can reach the courtyard balcony with the door leading to the Floormaster.  
+  You will need the Hover Boots to do so in-logic.
+  - If you do not have a Bow or the Song of Time, this may be your only access to the courtyards.
+
+#### Fire Temple
+- You are not expected to enter Fire Temple before first owning a Goron Tunic.
+- There are multiple methods to reach Fire Temple.
+  - The most common method is to cross the broken bridge. This may be initially reached by:
+    - Stopping _Link the Goron_, which requires one of the following: Goron Bracelet, Bombs, Bow.
+      - Out-of-logic methods to stop Link the Goron: Bombchu, Din's Fire, Blue Fire.
+    - Using Hover Boots to cross from the upper part of Death Mountain Crater and grab on to the ledge.
+    - Crossing the broken bridge itself requires Hookshot or Hover Boots.
+  - Much less common is to be required to use the Longshot and _Scarecrow's Song_ to travel counter-clockwise around the crater.
+  - _Bolero of Fire_ may be used to reach Fire Temple with no other prerequisite.
+- You will also need the Goron Bracelet in order to complete the dungeon, as Link cannot push large blocks without it.
+  - In this case, there is only one such large block, in the room above the block elevator (which Link can push easily).  
+    A Ground Jump will bypass this block, though this method is not in logic.
+- You can reach the Boss Key door from the beginning with Hover Boots. This is in logic, and Volvagia may hold a Small Key.
+- There is one extra key in Fire Temple. This is because one door lock is removed in the lobby, behind the hammer totem.
+- Speaking of keys, you can skip using one in the Fire Maze if you have Hover Boots and Megaton Hammer.  
+  Simply cross from the room entrance to the final hammer pillar, then hammer the rusted switch.
+
+#### Water Temple
+- You are not expected to enter Water Temple before first owning a Zora Tunic.
+- You will need the Hookshot and Iron Boots in order to enter Water Temple.
+- You may travel up and down the central tower's exterior with the water fully lowered. Stand near the inner wall, use your Hookshot  
+  to hit the next target up, and jumpslash to land on the next level up.
+  - This means you do not strictly need to use a key in order to enter the central tower, as with the water level lowered there is a  
+    lit torch that you can shoot an arrow through to unlock the second floor entrance to the central tower.
+  - You can use this to ascend to the top level, though this is only helpful if you need to raise the water level fully.
+    - To do so, you will need to use Hover Boots or a rolling jump aimed toward the _left_ side of the ledge where the water level
+      station is located.
+- Hover Boots can be used to reach the Boss Key chest without going through the room that requires Bombs and block pushing.  
+  Simply hover to the hole to the left where boulders roll from.
+- Hover Boots can also be used to pass the eye switch in the central hub's second level without using the Longshot.
+
+#### Shadow Temple
+- You will need the _Nocturne of Shadow_ to reach Shadow Temple, and all of the following to be granted in-logic access:  
+  Din's Fire, Lens of Truth, and _either_ Hookshot or Hover Boots.
+- You will also need the Goron Bracelet in order to reach every item check in the dungeon, as Link cannot push large blocks without it.
+  - The dungeon may be completed without the use of the Goron Bracelet if no chests in the Spike Trap room contain keys.
+  - The block normally used to reach the ferry boat may be bypassed by using the Hookshot on the ladder.
+- If you do not have Hover Boots, there are only two item locations in Shadow Temple accessible to you.
+- In the Invisible Spikes room, you do not need the Longshot to reach the locked door. Backflip onto the room's chest for height.
+- You may cross the large chasm after the ferry boat using the Longshot and _Scarecrow's Song_ instead of the Bow.
+  - [A well-aimed Bombchu can also be used to detonate the bomb flowers](https://www.twitch.tv/videos/299938965), though this method is not in logic.
+
+#### Spirit Temple
+- Rejoice, Bombchu fans! Your faithful little explosive rodent companion is finally helpful. But... still not demanded in logic.
+- Reaching the Spirit Temple can be an ordeal in itself.
+  - You may skip the entire sequence if you possess the _Requiem of Spirit_.
+  - If you do not, you will need to take the long route. This means the following somewhat extensive list:
+    - Epona _or_ the Longshot to cross the broken Gerudo Valley bridge
+    - Completion of the Carpenter rescue to gain access to the Haunted Wasteland
+    - Longshot _or_ Hover Boots to cross the quicksand in the Haunted Wasteland
+    - Lens of Truth to follow the Poe guide that leads you through the desert to the Desert Colossus
+- Remember to exit the Spirit Temple as soon as you enter it. This triggers Sheik's song check here as an adult _or_ as a child.
+- Child notes:
+  - You may kill the Armos using a Deku Stick. This is accounted for.
+  - You will need the Boomerang or Slingshot to make the initial circuit for the two child-exclusive item locations.
+    - You may substite Bombchus by sending one directly up the wall opposite the falling bridge.  
+      Detonate it with a Deku Nut if you fear you've overshot. This is not in logic.
+  - Child Link can activate the Map Chest in the central statue room using a Deku Stick. No magic needed!
+- Adult notes:
+  - The Hover Boots are not strictly required in the Spirit Temple.
+    - You may complete the rolling boulder Silver Rupees with a jumpslash.
+    - You may jump to the statue's hands from above.
+    - The Hover Boots can be used to reach the upper platforms, but this is _not_ considered in logic.
+  - Playing Zelda's Lullaby in the statue's hand spawns _two_ chests, not just one! The second is in the northeast corner at the top.
+  - You can use the Longshot to cross from Mirror Shield Chest to Silver Gauntlets Chest. This is considered in logic.
+  - Spirit Temple has two invisible chests. Thankfully, both are in one room and both are very close together.
+  
+#### Ganon's Castle  
+- The one place in the randomizer where Bombchus are _demanded_ in logic. No other glitchless method allows completion of Spirit Trial.
+- In Spirit Trial, the web on the ceiling may be burned by Din's Fire, Fire Arrows, or, less obvious, the Bow through a nearby torch.
+- In Shadow Trial, magical fire may be skipped entirely by using the Longshot to cross to the Like-Like, then Hover Boots over the gap.
+- There is free Blue Fire in the Water Trial. You may very well be required to use this Blue Fire source to unfreeze King Zora.
 
 # Known issues
 
