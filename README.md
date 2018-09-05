@@ -106,7 +106,7 @@ Some things have been changed and some bugs have been fixed entirely in order to
 - Sheik will no longer prevent Link from returning to childhood before obtaining the Forest Medallion.
 - Princess Ruto will now never disappear from Jabu Jabu's Belly, as she is vital to some puzzles.
 - The Castle Courtyard becomes sealed off after completing the events within, instead of seeing the Ocarina of Time be thrown into the moat.
-- In the Fire Temple, one door lock was removed. This is necessary to allow more variety in the placement of items within the dungeon. The door in question is behind the hammer totem in the lobby. As a consequence, fully clearing the Fire Temple leaves the player with one Small Key.
+- In the Fire Temple, one door lock was removed. This is necessary to allow the Megaton Hammer (or the single item which locks its access) to be placed anywhere _other than the Megaton Hammer chest_.
 - To make menu navigation in the inventory easier, empty inventory slots may now be highlighted with the cursor. This also fixes an issue where certain item combinations would result in unselectable items.
 
 # Logic Notes
@@ -132,15 +132,20 @@ The randomized item layout will test your knowledge of the game's intended mecha
 - The Boulder Maze in Goron City requires Bombs to access the right side items, the Megaton Hammer to access either side, or the Silver Gauntlets to literally rip the maze apart. The Skulltula in the crate only exists as a child, so you will still need Bombs to access and kill it.
 - If you have neither a Bomb Bag nor the Goron Bracelet, access to the lower sections of Death Mountain Crater (and therefore Sheik at the broken bridge and the Fire Temple) may be performed in the following alternative ways:
   - Detonate the Bomb Flower using a Bow to stop Link the Goron. This opens Darunia's chamber and lets you use his secret exit.
+    - Due to an oversight in the logic, the Bow is not considered in accessing the lower crater, only for stopping Link the Goron.  
+      - The two are considered separately; Link the Goron does not gate access to the lower crater. If your only access to stopping Link the Goron is the Bow, entering the Crater afterwards is out of logic and may not contain immediate progression.
+    - You may also use a Bombchu, or detonate the Bomb Flower with Din's Fire or (hilariously enough) Blue Fire, to stop Link the Goron, though these methods are not considered in logic. 
   - Enter Death Mountain Crater from the top and use the Hover Boots to cross the gap to the left.
-  - Enter Death Mountain Crater from the top and use the Longshot and Scarecrow's Song to navigate the route to the right.
+  - Enter Death Mountain Crater from the top and use the Longshot and Scarecrow's Song to navigate the route to the right. You will need the Megaton Hammer in this case in order to climb Death Mountain Trail.
 - The Longshot is not necessary to perform any of the rooftop actions in Kakariko Village. The Hookshot is sufficient.
+- The Longshot _is_ necessary to reach the Fire Arrows item, though you do not need to defeat Morpha to do so. Play the _Scarecrow's Song_ after walking down from the warp pad toward the island pillar, but before you fall into the bottom of the lakebed.
 - Surprisingly, the game checks for the Goron Bracelet in the following places as an adult:
   - Bomb Flowers require the Goron Bracelet to be lifted.
   - The large colored blocks with the crescent moon and star symbol (for example, those in Forest Temple's Block Room) require the Goron Bracelet to be pushed.
 
 ### Other Notes
 - Bombable Grottos may be opened with either Bombs, Bombchus, or the Megaton Hammer.
+- If you are required to use a magic item to progress (Fire Arrows, Light Arrows, Din's Fire, or the Lens of Truth), you will also need to find Magic.
 - While you can bypass the waterfall entry to Zora's Domain using a Cucco as a child or the Hover Boots as an adult, these are never considered in logic.
 - The Lens of Truth is always considered for every fake wall and invisible object, including Bongo Bongo. It is also considered for the Treasure Minigame, as the Lens of Truth can reveal the winning choices to make. You will never be expected to pass through a fake wall, open an invisible chest, or play the Treasure Minigame until you own the Lens of Truth.
   - The exception to the rule is the Bottom of the Well, where the player is expected to walk through the initial fake wall to enter the dungeon, which is where the Lens of Truth is located in the original game.
@@ -159,7 +164,7 @@ The randomized item layout will test your knowledge of the game's intended mecha
   - Link still needs the Goron Bracelet to lift Bomb Flowers, even as an adult.
   - The Megaton Hammer will break all bombable walls in Dodongo's Cavern.
   - Adult Link can skip the first floor loop path by jumping directly to the floor switch from the lobby.
-    - Child Link can perform the same skip by using a Ground Jump, though this is not in logic.
+    - Child Link can perform the same skip by using a Ground Jump (an [easy to perform glitch](http://zelda.speedruns.com/oot/tech/ground-jump)), though this is not in logic.
   - The Bow or Din's Fire are acceptable substitutes for blasting the stone staircase to reach the second floor.
     - Hilariously, Blue Fire also works, though you will need two bottles of it and this method is not in logic.
   - The second floor loop through the upper miniboss fight and fire pillars may be skipped entirely as an adult.
@@ -167,16 +172,20 @@ The randomized item layout will test your knowledge of the game's intended mecha
       Hover to the left instead of dropping down and you will grab on to a pillar.
     - This pillar may be jumped to without the use of Hover Boots, though this is not in logic.
   - Bombchus may be used to light up the skull's eyes. However, Bombchus are not in logic here.
-  - Bombchus may be used to defeat King Dodongo as an adult using a [particular Ground Jump setup](https://youtu.be/scZnFD1hB7E?t=650).  
-    However, this is not in logic and not recommended for inexperienced players.
+  - Yes, Bombchus may be used to defeat King Dodongo as an adult using a [particular Ground Jump setup](https://youtu.be/scZnFD1hB7E?t=650).  
+    However, this is not considered in logic and not recommended for inexperienced players.
 
 #### Forest Temple
 - Remember that you will need _Saria's Song_ or _Minuet of Forest_ to reach the Sacred Forest Meadow, then Hookshot to enter.
 - You will need the Bow or the Song of Time in order to enter the courtyards from the lobby.
 - You will also need the Goron Bracelet in order to complete the dungeon, as Link cannot push large blocks without it.
-- From the large block pushing room, you can reach the courtyard balcony with the door leading to the Floormaster.  
-  You will need the Hover Boots to do so in-logic.
-  - If you do not have a Bow or the Song of Time, this may be your only access to the courtyards.
+- If you do not have the _Song of Time_, don't despair! You can still access both courtyards with an assortment of other items.
+  - As should be obvious, the Bow will grant you access to the right courtyard.
+  - From the large block pushing room, you can reach the left courtyard balcony (with the door leading to the Floormaster).  
+    You will need the Hover Boots to do so in-logic, and one key in order to enter the block room.
+    - If you do not have a Bow or the _Song of Time_, this may be your only access to the courtyards.
+  - You may cross from the right courtyard to the left courtyard via the well using Iron Boots or Golden Scale.
+  - You may cross from the right courtyard to the left courtyard via Map Chest Room using the Longshot to latch on to high-up vines near the switch that drains the well.
 
 #### Fire Temple
 - You are not expected to enter Fire Temple before first owning a Goron Tunic.
@@ -184,28 +193,32 @@ The randomized item layout will test your knowledge of the game's intended mecha
   - The most common method is to cross the broken bridge. This may be initially reached by:
     - Stopping _Link the Goron_, which requires one of the following: Goron Bracelet, Bombs, Bow.
       - Out-of-logic methods to stop Link the Goron: Bombchu, Din's Fire, Blue Fire.
+      - Due to an oversight in the logic, the Bow is not considered in accessing the lower crater, only for stopping Link the Goron.  
+        - The two are considered separately; Link the Goron does not gate access to the lower crater. If your only access to stopping Link the Goron is the Bow, entering the Crater afterwards is out of logic and may not contain immediate progression.
     - Using Hover Boots to cross from the upper part of Death Mountain Crater and grab on to the ledge.
     - Crossing the broken bridge itself requires Hookshot or Hover Boots.
-  - Much less common is to be required to use the Longshot and _Scarecrow's Song_ to travel counter-clockwise around the crater.
+  - Much less common is to be required to use the Longshot and _Scarecrow's Song_ to travel counter-clockwise around the crater,  
+    and the Megaton Hammer to climb Death Mountain Trail in the first place.
   - _Bolero of Fire_ may be used to reach Fire Temple with no other prerequisite.
+- Additionally, you will need Bombs to fully clear the dungeon, and the Megaton Hammer to defeat Volvagia.
 - You will also need the Goron Bracelet in order to complete the dungeon, as Link cannot push large blocks without it.
   - In this case, there is only one such large block, in the room above the block elevator (which Link can push easily).  
-    A Ground Jump will bypass this block, though this method is not in logic.
+    A Ground Jump (an [easy to perform glitch](http://zelda.speedruns.com/oot/tech/ground-jump)) will bypass this block, though this method is not in logic.
 - You can reach the Boss Key door from the beginning with Hover Boots. This is in logic, and Volvagia may hold a Small Key.
 - There is one extra key in Fire Temple. This is because one door lock is removed in the lobby, behind the hammer totem.
 - Speaking of keys, you can skip using one in the Fire Maze if you have Hover Boots and Megaton Hammer.  
   Simply cross from the room entrance to the final hammer pillar, then hammer the rusted switch.
 
 #### Water Temple
+- While you're here, you don't need to defeat Morpha to reach the Fire Arrows item. Play the _Scarecrow's Song_ after walking down from the warp pad toward the island pillar, but before you fall into the bottom of the lakebed.
 - You are not expected to enter Water Temple before first owning a Zora Tunic.
-- You will need the Hookshot and Iron Boots in order to enter Water Temple.
+- You will need the Hookshot and Iron Boots in order to enter Water Temple. Fully clearing Water Temple requires the Bow and Longshot.
 - You may travel up and down the central tower's exterior with the water fully lowered. Stand near the inner wall, use your Hookshot  
   to hit the next target up, and jumpslash to land on the next level up.
   - This means you do not strictly need to use a key in order to enter the central tower, as with the water level lowered there is a  
     lit torch that you can shoot an arrow through to unlock the second floor entrance to the central tower.
   - You can use this to ascend to the top level, though this is only helpful if you need to raise the water level fully.
-    - To do so, you will need to use Hover Boots or a rolling jump aimed toward the _left_ side of the ledge where the water level
-      station is located.
+    - To do so without spending a key, you will need to use Hover Boots _or_ a rolling jump aimed toward the _left_ side of the ledge where the water level station is located. The jump without Hover Boots is considered in logic.
 - Hover Boots can be used to reach the Boss Key chest without going through the room that requires Bombs and block pushing.  
   Simply hover to the hole to the left where boulders roll from.
 - Hover Boots can also be used to pass the eye switch in the central hub's second level without using the Longshot.
@@ -214,7 +227,7 @@ The randomized item layout will test your knowledge of the game's intended mecha
 - You will need the _Nocturne of Shadow_ to reach Shadow Temple, and all of the following to be granted in-logic access:  
   Din's Fire, Lens of Truth, and _either_ Hookshot or Hover Boots.
 - You will also need the Goron Bracelet in order to reach every item check in the dungeon, as Link cannot push large blocks without it.
-  - The dungeon may be completed without the use of the Goron Bracelet if no chests in the Spike Trap room contain keys.
+  - The dungeon may be completed without the use of the Goron Bracelet if the upper chests in Spike Trap room do not contain keys.
   - The block normally used to reach the ferry boat may be bypassed by using the Hookshot on the ladder.
 - If you do not have Hover Boots, there are only two item locations in Shadow Temple accessible to you.
 - In the Invisible Spikes room, you do not need the Longshot to reach the locked door. Backflip onto the room's chest for height.
@@ -248,7 +261,7 @@ The randomized item layout will test your knowledge of the game's intended mecha
   
 #### Ganon's Castle  
 - The one place in the randomizer where Bombchus are _demanded_ in logic. No other glitchless method allows completion of Spirit Trial.
-- In Spirit Trial, the web on the ceiling may be burned by Din's Fire, Fire Arrows, or, less obvious, the Bow through a nearby torch.
+- In Spirit Trial, the web on the ceiling may be burned by Fire Arrows or, less obviously, a normal arrow through a nearby torch. Din's Fire simply will not reach.
 - In Shadow Trial, magical fire may be skipped entirely by using the Longshot to cross to the Like-Like, then Hover Boots over the gap.
 - There is free Blue Fire in the Water Trial. You may very well be required to use this Blue Fire source to unfreeze King Zora.
 
