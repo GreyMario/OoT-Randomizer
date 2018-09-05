@@ -212,7 +212,7 @@ The randomized item layout will test your knowledge of the game's intended mecha
 #### Water Temple
 - While you're here, you don't need to defeat Morpha to reach the Fire Arrows item. Play the _Scarecrow's Song_ after walking down from the warp pad toward the island pillar, but before you fall into the bottom of the lakebed.
 - You are not expected to enter Water Temple before first owning a Zora Tunic.
-- You will need the Hookshot and Iron Boots in order to enter Water Temple. Fully clearing Water Temple requires the Bow and Longshot.
+- You will need the Hookshot and Iron Boots in order to enter Water Temple. Fully clearing Water Temple requires the Bow, Longshot, and Goron Bracelet.
 - You may travel up and down the central tower's exterior with the water fully lowered. Stand near the inner wall, use your Hookshot  
   to hit the next target up, and jumpslash to land on the next level up.
   - This means you do not strictly need to use a key in order to enter the central tower, as with the water level lowered there is a  
