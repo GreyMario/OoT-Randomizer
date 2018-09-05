@@ -144,6 +144,7 @@ The randomized item layout will test your knowledge of the game's intended mecha
 - While you can bypass the waterfall entry to Zora's Domain using a Cucco as a child or the Hover Boots as an adult, these are never considered in logic.
 - The Lens of Truth is always considered for every fake wall and invisible object, including Bongo Bongo. It is also considered for the Treasure Minigame, as the Lens of Truth can reveal the winning choices to make. You will never be expected to pass through a fake wall, open an invisible chest, or play the Treasure Minigame until you own the Lens of Truth.
   - The exception to the rule is the Bottom of the Well, where the player is expected to walk through the initial fake wall to enter the dungeon, which is where the Lens of Truth is located in the original game.
+- Learning a song from Sheik at the Desert Colossus may be done as an adult or as a child. Simply enter and exit Spirit Temple.
 
 ### Dungeon-Specific
 - The Song of Time can summon and dispel the blue blocks featuring the Door of Time symbol. Remember that these blocks can be summoned to climb to new areas in the Fire Temple's final Goron jail, Gerudo Training Grounds Lava Rupees room, and Ganon's Castle Shadow Trial.
